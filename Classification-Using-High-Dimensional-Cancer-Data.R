@@ -1,9 +1,7 @@
-# Data was downloaded Monday, March 30 from the UCI Machine Learning repository:
+# Data was downloaded Monday, March 30, 2020 from the UCI Machine Learning repository:
 # https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
 ########################### IMPORT DATA #################################################
-
-setwd("/home/tim/Documents/R/STAT488Multivariate") # set working directory
 
 # 'wdbc' = Wisconsin diagnostic breast cancer data
 
