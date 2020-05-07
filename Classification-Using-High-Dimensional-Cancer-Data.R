@@ -1,4 +1,4 @@
-# Data was downloaded Monday, March 30, 2020 from the UCI Machine Learning repository:
+# Data was downloaded March 30, 2020 from the UCI Machine Learning repository:
 # https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
 ########################### IMPORT DATA #################################################
