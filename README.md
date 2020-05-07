@@ -1,9 +1,13 @@
 # Classification-High-Dimensional-Cancer-Data
 
-This project showcases a variety of techniques in high-dimensional data analysis, including classification (quadratic discriminant analysis, random forests), dimension reduction (principal component analysis), and multivariate tests of mean vectors.
+This repository contains code as well as a formal PDF report summarizing findings.
 
-I find that separation of tumor classes (benign, malignant) is visible in 2D principal component space.
+Here I analyze high-dimensional cancer data in a data set containing 569 observations of 30 features. Each observation represents a tumor sample from a benign or malignant breast cancer tumor.
 
-A key component of this analysis is evaluating assumptions such as multivariate normality, equality of variances, and absence of multicollinearity.
+I implement a variety of methods in multivariate analysis, including classification (quadratic discriminant analysis and random forests), dimension reduction (PCA), and inference of mean vectors.
 
-For QDA, I use misclassification rate and jackknifing to evaluate model error. For random forests, I use out-of-bag error. I implement a parameter search to identify the best possible model. Both QDA and random forest achieve high accuracy.
+To assess assumptions, I investigate multicollinearity, multivariate normality, and equality of variances.
+
+To evaluate model error, I use misclassification rate and jackknifing (for QDA) and out-of-bag error (for random forests). I implement a parameter search to identify the best possible random forest model.
+
+I find that QDA and random forest perform well in classification. In addition, PCA successfully reduces the number of dimensions necessary to discriminate between classes. PCA reveals partial separation of tumor classes with only two principal components.
