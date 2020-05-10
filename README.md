@@ -1,4 +1,4 @@
-# Classification-High-Dimensional-Cancer-Data
+# Classification_Using_High_Dimensional_Cancer_Data
 
 This repository contains code and a formal PDF report for my Multivariate Analysis final project. Here I analyze high-dimensional cancer data in a data set containing 569 observations of 30 features. Each observation represents a benign or malignant breast cancer tumor.
 
