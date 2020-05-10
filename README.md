@@ -1,8 +1,6 @@
 # Classification-High-Dimensional-Cancer-Data
 
-This repository contains code as well as a formal PDF report summarizing findings.
-
-Here I analyze high-dimensional cancer data in a data set containing 569 observations of 30 features. Each observation represents a tumor sample from a benign or malignant breast cancer tumor.
+This repository contains code and a formal PDF report for my Multivariate Analysis final project. Here I analyze high-dimensional cancer data in a data set containing 569 observations of 30 features. Each observation represents a benign or malignant breast cancer tumor.
 
 I implement a variety of methods in multivariate analysis, including classification (quadratic discriminant analysis and random forests), dimension reduction (PCA), and inference of mean vectors.
 
