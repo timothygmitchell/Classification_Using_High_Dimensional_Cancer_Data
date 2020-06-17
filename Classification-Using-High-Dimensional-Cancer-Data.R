@@ -5,7 +5,8 @@
 
 # 'wdbc' = Wisconsin diagnostic breast cancer data
 
-wdbc <- read.csv("wdbc.data", header=F)[,-1] # remove index
+url="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data"
+wdbc <- read.csv(url, header = F)[,-1] # remove index
 wdbc[,1] <- factor(wdbc[,1])
 colnames(wdbc) <- paste("V", 1:31, sep="")
 m <- data.matrix(wdbc) # as matrix
